@@ -1,0 +1,252 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.quizPage{
+
+  min-height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  padding:30px;
+
+  background:
+  radial-gradient(circle at top,#2563EB,#020617 75%);
+
+}
+
+.quizCard{
+
+  width:100%;
+  max-width:650px;
+
+  background:rgba(15,23,42,.82);
+
+  backdrop-filter:blur(18px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  border-radius:35px;
+
+  padding:45px;
+
+  box-shadow:
+  0 0 50px rgba(37,99,235,.25);
+
+  animation:fade .7s ease;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+.quizLogo{
+
+width:120px;
+
+display:block;
+
+margin:auto;
+
+margin-bottom:25px;
+
+}
+
+.quizCard h1{
+
+text-align:center;
+
+font-size:34px;
+
+font-family:"Poppins",sans-serif;
+
+color:white;
+
+margin-bottom:12px;
+
+}
+
+.quizSubtitle{
+
+text-align:center;
+
+color:#94A3B8;
+
+margin-bottom:35px;
+
+font-size:16px;
+
+}
+
+.progressBar{
+
+width:100%;
+
+height:12px;
+
+background:#172554;
+
+border-radius:30px;
+
+overflow:hidden;
+
+margin-bottom:12px;
+
+}
+
+.progress{
+
+height:100%;
+
+background:linear-gradient(
+90deg,
+#2563EB,
+#60A5FA
+);
+
+transition:.5s;
+
+border-radius:30px;
+
+}
+
+.progressText{
+
+display:block;
+
+text-align:right;
+
+margin-bottom:25px;
+
+color:#93C5FD;
+
+font-weight:600;
+
+}
+
+.quizCard h2{
+
+color:white;
+
+font-size:28px;
+
+margin-bottom:30px;
+
+text-align:center;
+
+}
+
+.options{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.option{
+
+width:100%;
+
+padding:18px;
+
+border:none;
+
+border-radius:18px;
+
+background:#0F172A;
+
+color:white;
+
+font-size:17px;
+
+cursor:pointer;
+
+transition:.25s;
+
+border:2px solid transparent;
+
+}
+
+.option:hover{
+
+transform:translateY(-3px);
+
+background:#172554;
+
+border-color:#3B82F6;
+
+}
+
+.option.active{
+
+background:#2563EB;
+
+border-color:#60A5FA;
+
+transform:scale(1.03);
+
+box-shadow:0 0 25px rgba(59,130,246,.45);
+
+}
+
+.continueButton{
+
+margin-top:35px;
+
+width:100%;
+
+height:60px;
+
+border:none;
+
+border-radius:18px;
+
+cursor:pointer;
+
+font-size:19px;
+
+font-weight:700;
+
+color:white;
+
+background:linear-gradient(
+90deg,
+#2563EB,
+#3B82F6
+);
+
+transition:.3s;
+
+}
+
+.continueButton:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 0 35px rgba(37,99,235,.45);
+
+}

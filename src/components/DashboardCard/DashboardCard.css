@@ -1,0 +1,52 @@
+.dashboardCard {
+
+  background: rgba(15,23,42,0.85);
+
+  padding:30px;
+
+  border-radius:28px;
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  transition:0.3s;
+
+  cursor:pointer;
+
+}
+
+
+.dashboardCard:hover {
+
+  transform:translateY(-8px);
+
+  box-shadow:
+  0 0 35px rgba(37,99,235,0.4);
+
+}
+
+
+.cardIcon {
+
+  font-size:42px;
+
+  margin-bottom:15px;
+
+}
+
+
+.dashboardCard h2 {
+
+  color:white;
+
+  font-size:22px;
+
+  margin-bottom:10px;
+
+}
+
+
+.dashboardCard p {
+
+  color:#94A3B8;
+
+}
