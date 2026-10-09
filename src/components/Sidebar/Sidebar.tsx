@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import logo from "../../assets/images/monisa.png";
+import logo from "../../assets/images/MONISA.png";
 
 
 interface Props{

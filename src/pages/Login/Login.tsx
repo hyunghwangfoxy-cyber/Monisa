@@ -1,5 +1,5 @@
 import "./Login.css";
-import logo from "../../assets/images/monisa.png";
+import logo from "../../assets/images/MONISA.png";
 import { Mail, Lock, Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";

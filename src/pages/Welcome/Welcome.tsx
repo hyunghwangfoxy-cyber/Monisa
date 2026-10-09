@@ -1,5 +1,5 @@
 import "./Welcome.css";
-import logo from "../../assets/images/monisa.png";
+import logo from "../../assets/images/MONISA.png";
 
 
 function Welcome() {

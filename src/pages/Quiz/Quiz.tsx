@@ -1,5 +1,5 @@
 import "./Quiz.css";
-import logo from "../../assets/images/monisa.png";
+import logo from "../../assets/images/MONISA.png";
 import { useState } from "react";
 
 const questions = [
